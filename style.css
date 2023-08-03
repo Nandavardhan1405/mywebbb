@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
+
+:root {
+    --main-bg-color: #dd6520;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 5vw;
+    padding: 0 1vw;
+}
+
+nav ul {
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    
+    list-style: none;
+    
+    padding: 0 0.8vw;
+}
+
+nav ul li a {
+    height: 1vh;
+    color: white;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+   font-weight: bolder;
+   
+}
+
+.search{
+    margin:0 3vw;
+    display: flex;
+align-items: center;
+
+}
+.search input{  
+    width: 40vw;
+    height: 4vh;
+    border-radius: 9px;
+    padding: 0 12px;
+  }
+.search button{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.container{
+    
+    min-height: calc(100vh - 7vh - 10vh) ;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    
+    height:30vh;
+}
+footer {
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
